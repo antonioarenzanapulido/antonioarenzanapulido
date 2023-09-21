@@ -3,31 +3,59 @@
   import devopsCycle from "./assets/devops-cycle.svg";
 </script>
 
-<main>
+<main class="p-6 sm:p-12 md:p-16">
   <div class="bg" />
   <div class="bg bg2" />
   <div class="bg bg3" />
 
-  <section class="flex flex-col lg:flex-row md:flex-col my-8 space-y-8 lg:space-x-12">
-    <div class="bg-white max-w-screen-md rounded-md mx-2 pt-8 pb-2 px-8 self-center opacity-95 ">
-      <h1 class="text-center font-mono text-3xl">Antonio Arenzana Pulido</h1>
-
+  <div class="mx-auto min-h-screen max-w-5xl space-y-6">
+    <section class="bg-white rounded-md mx-2 p-8">
       <img
-        class="self-center h-32 my-8 mx-auto"
+        class="self-center my-12 mx-auto"
         src={devopsCycle}
         alt="DevOps Cycle"
       />
-      <h2 class="text-center font-mono text-xl">DevOps Engineer</h2>
 
-      <p class="text-center font-fono mt-4 text-lg">
-        Currently working on <a class="color-blue" href="https://edpuzzle.com/">EdPuzzle</a> managing
-        cloud infrastructure and managing the automation of applications development
-        lifecycle
-      </p>
+      <h1
+        class="text-4xl text-center font-extrabold text-gradient bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 leading-tight"
+      >
+        Antonio Arenzana Pulido
+      </h1>
 
-      <div class="flex flex-row mt-4 justify-between max-w-xs mx-auto">
+      <div class="flex flex-row mt-12 justify-between max-w-xs mx-auto">
         <a href="https://www.linkedin.com/in/antonio-arenzana-pulido"
-          ><svg class="w-12 h-24" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:#007fb5;}.cls-2{fill:#fff;}</style></defs><title/><g data-name="14-linkedin" id="_14-linkedin"><rect class="cls-1" height="64" rx="11.2" ry="11.2" width="64"/><rect class="cls-2" height="32.72" width="9.03" x="8.99" y="23.54"/><path class="cls-2" d="M48.2,23.54C41.54,21,36.72,25.3,34.66,27.7V23.54h-9V56.26h9V39a8.45,8.45,0,0,1,2.23-5.92,4.75,4.75,0,0,1,3.41-1.67A5.42,5.42,0,0,1,44.24,33a6.13,6.13,0,0,1,1.7,4.35V56.26H56.1V36S57.23,26.92,48.2,23.54Z"/><circle class="cls-2" cx="13.5" cy="13.38" r="5.64"/></g></svg></a
+          ><svg
+            class="w-12 h-24"
+            viewBox="0 0 64 64"
+            xmlns="http://www.w3.org/2000/svg"
+            ><defs
+              ><style>
+                .cls-1 {
+                  fill: #007fb5;
+                }
+                .cls-2 {
+                  fill: #fff;
+                }
+              </style></defs
+            ><title /><g data-name="14-linkedin" id="_14-linkedin"
+              ><rect
+                class="cls-1"
+                height="64"
+                rx="11.2"
+                ry="11.2"
+                width="64"
+              /><rect
+                class="cls-2"
+                height="32.72"
+                width="9.03"
+                x="8.99"
+                y="23.54"
+              /><path
+                class="cls-2"
+                d="M48.2,23.54C41.54,21,36.72,25.3,34.66,27.7V23.54h-9V56.26h9V39a8.45,8.45,0,0,1,2.23-5.92,4.75,4.75,0,0,1,3.41-1.67A5.42,5.42,0,0,1,44.24,33a6.13,6.13,0,0,1,1.7,4.35V56.26H56.1V36S57.23,26.92,48.2,23.54Z"
+              /><circle class="cls-2" cx="13.5" cy="13.38" r="5.64" /></g
+            ></svg
+          ></a
         >
         <a aria-label="email" href="mail:antonioarenzanapulido@gmail.com"
           ><svg
@@ -90,42 +118,90 @@
           ></a
         >
       </div>
-    </div>
+    </section>
 
-    <div class="bg-white max-w-screen-md rounded-md mx-2 p-8 self-center opacity-95 ">
-      <h3 class="text-xl text-center">Current goals</h3>
-      <ul class="mt-8 space-y-2">
-        <li class="flex space-x-2">
-          <span class="block w-8 h-8">✅</span>
-          <p class="text-lg">AWS Certified Solutions Architect - Associate</p>
-        </li>
-        <li class="flex space-x-2">
-          <svg
-            class="animate-spin h-8 w-8"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-            ><path
-              d="M6.8042,15A.99956.99956,0,0,0,5.438,14.63379l-1.73242,1a1.00016,1.00016,0,0,0,1,1.73242l1.73242-1A1.00073,1.00073,0,0,0,6.8042,15ZM3.70557,8.36621l1.73242,1a1.00016,1.00016,0,1,0,1-1.73242l-1.73242-1a1.00016,1.00016,0,0,0-1,1.73242ZM6,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H5A1,1,0,0,0,6,12ZM17.1958,9a1.0006,1.0006,0,0,0,1.36621.36621l1.73242-1a1.00016,1.00016,0,1,0-1-1.73242l-1.73242,1A1.00073,1.00073,0,0,0,17.1958,9ZM15,6.8042A1.0006,1.0006,0,0,0,16.36621,6.438l1-1.73242a1.00016,1.00016,0,1,0-1.73242-1l-1,1.73242A1.00073,1.00073,0,0,0,15,6.8042Zm5.29443,8.82959-1.73242-1a1.00016,1.00016,0,1,0-1,1.73242l1.73242,1a1.00016,1.00016,0,0,0,1-1.73242ZM16.36621,17.562a1.00016,1.00016,0,1,0-1.73242,1l1,1.73242a1.00016,1.00016,0,1,0,1.73242-1ZM21,11H19a1,1,0,0,0,0,2h2a1,1,0,0,0,0-2Zm-9,7a1,1,0,0,0-1,1v2a1,1,0,0,0,2,0V19A1,1,0,0,0,12,18Zm-3-.8042a.99954.99954,0,0,0-1.36621.36621l-1,1.73242a1.00016,1.00016,0,0,0,1.73242,1l1-1.73242A1.00073,1.00073,0,0,0,9,17.1958ZM12,2a1,1,0,0,0-1,1V5a1,1,0,0,0,2,0V3A1,1,0,0,0,12,2Z"
-              fill="#6563ff"
-            /></svg
+    <div class="mx-auto min-h-screen max-w-5xl space-y-6">
+      <section class="bg-white rounded-md mx-2 p-8">
+        <h2
+          class="text-4xl font-extrabold text-indigo-700 mb-4 border-b-4 border-indigo-600"
+        >
+          About <span class="text-yellow-500">me</span>
+        </h2>
+
+        <p class="text-gray-800 leading-7 mt-12 text-xl">
+          I am a DevOps Engineer at <a
+            class="text-blue-500 hover:text-blue-700 hover:underline transition-colors duration-300"
+            href="https://edpuzzle.com/">Edpuzzle</a
           >
-          <p class="text-lg">Certified Kubernetes Administrator (CKA)</p>
-        </li>
-        <li class="flex space-x-2">
-          <svg
-            class="animate-spin h-8 w-8"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-            ><path
-              d="M6.8042,15A.99956.99956,0,0,0,5.438,14.63379l-1.73242,1a1.00016,1.00016,0,0,0,1,1.73242l1.73242-1A1.00073,1.00073,0,0,0,6.8042,15ZM3.70557,8.36621l1.73242,1a1.00016,1.00016,0,1,0,1-1.73242l-1.73242-1a1.00016,1.00016,0,0,0-1,1.73242ZM6,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H5A1,1,0,0,0,6,12ZM17.1958,9a1.0006,1.0006,0,0,0,1.36621.36621l1.73242-1a1.00016,1.00016,0,1,0-1-1.73242l-1.73242,1A1.00073,1.00073,0,0,0,17.1958,9ZM15,6.8042A1.0006,1.0006,0,0,0,16.36621,6.438l1-1.73242a1.00016,1.00016,0,1,0-1.73242-1l-1,1.73242A1.00073,1.00073,0,0,0,15,6.8042Zm5.29443,8.82959-1.73242-1a1.00016,1.00016,0,1,0-1,1.73242l1.73242,1a1.00016,1.00016,0,0,0,1-1.73242ZM16.36621,17.562a1.00016,1.00016,0,1,0-1.73242,1l1,1.73242a1.00016,1.00016,0,1,0,1.73242-1ZM21,11H19a1,1,0,0,0,0,2h2a1,1,0,0,0,0-2Zm-9,7a1,1,0,0,0-1,1v2a1,1,0,0,0,2,0V19A1,1,0,0,0,12,18Zm-3-.8042a.99954.99954,0,0,0-1.36621.36621l-1,1.73242a1.00016,1.00016,0,0,0,1.73242,1l1-1.73242A1.00073,1.00073,0,0,0,9,17.1958ZM12,2a1,1,0,0,0-1,1V5a1,1,0,0,0,2,0V3A1,1,0,0,0,12,2Z"
-              fill="#6563ff"
-            /></svg
-          >
-          <p class="text-lg" >AWS Certified DevOps Engineer - Professional</p>
-        </li>
-      </ul>
+        </p>
+
+        <p class="text-gray-800 leading-7 mt-12 text-xl">
+          I like improving software development procedures and ensuring system
+          stability. Skilled in implementing DevOps best practices, with
+          proficiency in cloud computing, containerization, and infrastructure
+          as code (IaC).
+        </p>
+      </section>
+
+      <section class="bg-white rounded-md mx-2 p-8">
+        <h2
+          class="text-4xl font-extrabold text-indigo-700 mb-4 border-b-4 border-indigo-600"
+        >
+          Current <span class="text-yellow-500">goals</span>
+        </h2>
+        <ul class="mt-8 space-y-6">
+          <li class="flex space-x-2">
+            <span class="block w-8 h-8 mt-0.5">✅</span>
+            <a
+              href="https://www.credly.com/badges/020a2689-a33b-4611-b607-428d96cc1514"
+              class="text-lg text-blue-500 hover:underline hover:text-blue-700 transition-colors duration-300"
+              >AWS Certified Solutions Architect - Associate</a
+            >
+          </li>
+          <li class="flex space-x-2">
+            <span class="block w-8 h-8 mt-0.5">✅</span>
+            <a
+              href="https://www.credly.com/badges/ade16928-31ee-453c-9eaf-74be68fa1185"
+              class="text-lg text-blue-500 hover:underline hover:text-blue-700 transition-colors duration-300"
+              >Certified Kubernetes Administrator (CKA)</a
+            >
+          </li>
+          <li class="flex space-x-2">
+            <svg
+              class="animate-spin h-8 w-8"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              ><path
+                d="M6.8042,15A.99956.99956,0,0,0,5.438,14.63379l-1.73242,1a1.00016,1.00016,0,0,0,1,1.73242l1.73242-1A1.00073,1.00073,0,0,0,6.8042,15ZM3.70557,8.36621l1.73242,1a1.00016,1.00016,0,1,0,1-1.73242l-1.73242-1a1.00016,1.00016,0,0,0-1,1.73242ZM6,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H5A1,1,0,0,0,6,12ZM17.1958,9a1.0006,1.0006,0,0,0,1.36621.36621l1.73242-1a1.00016,1.00016,0,1,0-1-1.73242l-1.73242,1A1.00073,1.00073,0,0,0,17.1958,9ZM15,6.8042A1.0006,1.0006,0,0,0,16.36621,6.438l1-1.73242a1.00016,1.00016,0,1,0-1.73242-1l-1,1.73242A1.00073,1.00073,0,0,0,15,6.8042Zm5.29443,8.82959-1.73242-1a1.00016,1.00016,0,1,0-1,1.73242l1.73242,1a1.00016,1.00016,0,0,0,1-1.73242ZM16.36621,17.562a1.00016,1.00016,0,1,0-1.73242,1l1,1.73242a1.00016,1.00016,0,1,0,1.73242-1ZM21,11H19a1,1,0,0,0,0,2h2a1,1,0,0,0,0-2Zm-9,7a1,1,0,0,0-1,1v2a1,1,0,0,0,2,0V19A1,1,0,0,0,12,18Zm-3-.8042a.99954.99954,0,0,0-1.36621.36621l-1,1.73242a1.00016,1.00016,0,0,0,1.73242,1l1-1.73242A1.00073,1.00073,0,0,0,9,17.1958ZM12,2a1,1,0,0,0-1,1V5a1,1,0,0,0,2,0V3A1,1,0,0,0,12,2Z"
+                fill="#6563ff"
+              /></svg
+            >
+            <p
+              class="text-lg text-gray-500 hover:underline hover:text-gray-700 transition-colors duration-300"
+            >
+              AWS Certified DevOps Engineer - Professional
+            </p>
+          </li>
+          <li class="flex space-x-2">
+            <svg
+              class="animate-spin h-8 w-8"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              ><path
+                d="M6.8042,15A.99956.99956,0,0,0,5.438,14.63379l-1.73242,1a1.00016,1.00016,0,0,0,1,1.73242l1.73242-1A1.00073,1.00073,0,0,0,6.8042,15ZM3.70557,8.36621l1.73242,1a1.00016,1.00016,0,1,0,1-1.73242l-1.73242-1a1.00016,1.00016,0,0,0-1,1.73242ZM6,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H5A1,1,0,0,0,6,12ZM17.1958,9a1.0006,1.0006,0,0,0,1.36621.36621l1.73242-1a1.00016,1.00016,0,1,0-1-1.73242l-1.73242,1A1.00073,1.00073,0,0,0,17.1958,9ZM15,6.8042A1.0006,1.0006,0,0,0,16.36621,6.438l1-1.73242a1.00016,1.00016,0,1,0-1.73242-1l-1,1.73242A1.00073,1.00073,0,0,0,15,6.8042Zm5.29443,8.82959-1.73242-1a1.00016,1.00016,0,1,0-1,1.73242l1.73242,1a1.00016,1.00016,0,0,0,1-1.73242ZM16.36621,17.562a1.00016,1.00016,0,1,0-1.73242,1l1,1.73242a1.00016,1.00016,0,1,0,1.73242-1ZM21,11H19a1,1,0,0,0,0,2h2a1,1,0,0,0,0-2Zm-9,7a1,1,0,0,0-1,1v2a1,1,0,0,0,2,0V19A1,1,0,0,0,12,18Zm-3-.8042a.99954.99954,0,0,0-1.36621.36621l-1,1.73242a1.00016,1.00016,0,0,0,1.73242,1l1-1.73242A1.00073,1.00073,0,0,0,9,17.1958ZM12,2a1,1,0,0,0-1,1V5a1,1,0,0,0,2,0V3A1,1,0,0,0,12,2Z"
+                fill="#6563ff"
+              /></svg
+            >
+            <p
+              class="text-lg text-gray-500 hover:underline hover:text-gray-700 transition-colors duration-300"
+            >
+              Certified Kubernetes Security Specialist (CKS)
+            </p>
+          </li>
+        </ul>
+      </section>
     </div>
-  </section>
+  </div>
 </main>
 
 <style>
