@@ -57,7 +57,7 @@
             ></svg
           ></a
         >
-        <a aria-label="email" href="mail:antonioarenzanapulido@gmail.com"
+        <a aria-label="email" href="mail:me@aarenzana.com"
           ><svg
             class="w-12 h-24"
             viewBox="0 0 24 24"
